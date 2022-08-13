@@ -1,0 +1,130 @@
+body{
+background-image: url(https://www.actuia.com/wp-content/uploads/2022/03/Meta-construction-metavers-Intelligence-Artificielle.png);
+background-size: 100%;
+background-repeat: no-repeat;
+border-style: none;
+}
+h1{
+    color: rgb(94, 101, 190);
+    text-align: center;
+}
+hr{
+    background-color: rgb(18, 59, 238);
+    width: 1500px;
+    height: 5px;
+    border: 5px;
+    border-radius: 10px;
+}
+div{
+    box-shadow: 5px 1px 10px black;
+    border: 5px;
+    border-radius: 10px; 
+    background-image: url(https://www.verdict.co.uk/wp-content/uploads/2022/02/shutterstock_2083695832-1038x720.jpg);
+}
+ul{
+    border: 1px solid;
+    display: flex;
+    list-style-type: none;
+}
+li{
+     padding: 4px ;
+     margin: 2% ;
+     font-family: Helvetica, sans-serif; 
+     font-style: bold;
+     font-size: 20px;
+ }
+ a{
+    color: white;
+     text-decoration: none;
+  }
+ li:hover{
+           font-size: 14px;
+            Border-bottom : 5px solid;
+            border-color: rgb(22, 22, 163);
+  }
+ a:hover {
+         font-size : 25px;
+ }
+ li:nth-child(1){
+                 margin-left : 20%;
+ }
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 600,
+  'GRAD' 200,
+  'opsz' 48
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 600,
+  'GRAD' 200,
+  'opsz' 48
+}
+#links{
+    background-color: rgb(8, 8, 90);
+}
+.menu-icon{
+    position: relative; 
+    width: 54px;
+    height: 54px; 
+
+    transition: transform 0.5s;
+}
+.menu-icon svg { 
+    stroke-dashoffset: 170;
+    stroke-dasharray: 170;
+    transition: stroke-dashoffset 0.5s; 
+ }
+ .menu-icon svg {
+    position: relative;
+    z-index: 1;
+    fill: #052b23;
+    stroke-width: 1px;
+    stroke: #FFF;
+}
+.menu-icon span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%); 
+
+    display: block;
+    width: 22px;
+    height: 2px;
+
+    background-color: #FFF;
+
+    transition: background 0.5s;
+}
+.menu-icon span::before, .menu-icon span::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(-6px);
+
+    display: block;
+    width: 22px;
+    height: 2px;
+
+    background-color: #FFF;
+
+    transition: transform 0.5s;
+}
+.menu-icon span::after {
+    transform: translateY(6px); 
+}
+.menu-icon.is-opened{
+    stroke-dashoffset: 0; 
+ }
+.menu-icon.is-opened span { background: transparent; }
+.menu-icon.is-opened span::before { transform: translateY(0) rotate(45deg); }
+.menu-icon.is-opened span::after { transform: translateY(0) rotate(-45deg); }
+.menu-icon.is-opened { transform: rotate(180deg); }
+
+
+
+ 
